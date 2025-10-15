@@ -6,7 +6,6 @@ import Register from '../components/Register';
 import Cart from '../pages/cart/Cart';
 import Checkout from '../pages/checkout/Checkout';
 import SingleBook from '../pages/books/SingleBook';
-import PrivateRoute from './privateRoute';
 import Order from '../pages/orders/Order';
 import AdminRoute from './AdminRoute';
 import AdminLogin from '../components/AdminLogin';
@@ -14,7 +13,8 @@ import ManageBooks from '../pages/dashboard/manageBooks/ManageBooks';
 import DashboardLayouts from '../pages/dashboard/DashboardLayouts';
 import Dashboard from '../pages/dashboard/Dashboard';
 import AddBook from '../pages/dashboard/addBook/AddBook';
-import UpdateBook from '../pages/dashboard/EditBook/UpdateBook';
+import PrivateRoute from './privateRoute';
+import UpdateBook from '../pages/dashboard/editBook/UpdateBook';
 const router = createBrowserRouter([
     {
         path: '/',
