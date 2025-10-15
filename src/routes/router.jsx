@@ -13,7 +13,7 @@ import ManageBooks from '../pages/dashboard/manageBooks/ManageBooks';
 import DashboardLayouts from '../pages/dashboard/DashboardLayouts';
 import Dashboard from '../pages/dashboard/Dashboard';
 import AddBook from '../pages/dashboard/addBook/AddBook';
-import PrivateRoute from './privateRoute';
+import PrivateRoute from './PrivateRoute';
 import UpdateBook from '../pages/dashboard/editBook/UpdateBook';
 const router = createBrowserRouter([
     {
