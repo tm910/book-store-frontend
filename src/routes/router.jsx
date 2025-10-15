@@ -14,7 +14,7 @@ import DashboardLayouts from '../pages/dashboard/DashboardLayouts';
 import Dashboard from '../pages/dashboard/Dashboard';
 import AddBook from '../pages/dashboard/addBook/AddBook';
 import PrivateRoute from './PrivateRoute';
-import UpdateBook from '../pages/dashboard/editBook/UpdateBook';
+import UpdateBook from '../pages/dashboard/EditBook/UpdateBook';
 const router = createBrowserRouter([
     {
         path: '/',
